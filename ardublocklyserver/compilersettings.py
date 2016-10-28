@@ -56,6 +56,7 @@ class ServerCompilerSettings(object):
     # TODO: This content will be moved from here and integrated completely
     #       into 'blockly\generators\arduino\boards.js', which should then
     #       send the selected flag to be saved as a single value
+    """
     __arduino_types = {'Uno': 'arduino:avr:uno',
                        'Nano 328': 'arduino:avr:nano:cpu=atmega328',
                        'Nano 168': 'arduino:avr:nano:cpu=atmega168',
@@ -73,6 +74,8 @@ class ServerCompilerSettings(object):
                                'atmel:avr:atmega328pb_xplained_mini',
                        'ESP8266 Huzzah': 'esp8266:esp8266:generic',
                        'ESP8266 WeMos D1': 'esp8266:esp8266:generic'}
+    """
+    __arduino_types = {'Engduino': 'Engduino:avr:Engduinov3'}
 
     # Class dictionary to contain the computer COM ports, dynamic content
     __serial_ports = {'port0': 'COM1'}

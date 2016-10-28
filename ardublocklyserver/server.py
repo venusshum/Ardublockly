@@ -18,6 +18,7 @@ except ImportError:
 from ardublocklyserver.requesthandler import BlocklyRequestHandler
 
 ADDRESS = '0.0.0.0'
+
 PORT = 8000
 
 
@@ -28,6 +29,7 @@ def start_server(document_root):
     server_address = (ADDRESS, PORT)
     server = BaseHTTPServer.HTTPServer(server_address, BlocklyRequestHandler)
     print('Launching the HTTP service...')
+    print('on address' + ADDRESS + "...")
     server.serve_forever()
     print('The Server closed unexpectedly!!')
 

@@ -216,7 +216,7 @@ Ardublockly.TOOLBOX_XML =
 '    </block>' +
 '  </category>' +
 '  <sep></sep>' +
-'  <category id="catComms" name="Comms">' +
+'  <category id="catComms" name="Communications">' +
 '    <block type="serial_setup"></block>' +
 '    <block type="serial_print"></block>' +
 '    <block type="text_prompt_ext">' +
@@ -228,4 +228,15 @@ Ardublockly.TOOLBOX_XML =
 '    <block type="spi_transfer"></block>' +
 '    <block type="spi_transfer_return"></block>' +
 '  </category>' +
+'  <category id="engduino" name="EngduinoLED">' +
+'    <block type="engLED_setall"></block>' +
+'    <block type="engLED_setled">' +
+'	   <value name="LED_ID">' +
+'        <block type="math_number">' +
+'          <field name="NUM">0</field>' +
+'        </block>' +
+'      </value>' +
+'	</block>' +
+'    <block type="engLED_clearall"></block>' +
+'  </category>' + 
 '</xml>';

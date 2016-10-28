@@ -1240,3 +1240,8 @@ Blockly.Msg.NEW_INSTANCE = 'New instance...';
 Blockly.Msg.RENAME_INSTANCE = 'Rename instance...';
 Blockly.Msg.NEW_INSTANCE_TITLE = 'New instance name:';
 Blockly.Msg.RENAME_INSTANCE_TITLE = 'Rename all "%1" instances to:';
+
+///Engduino Blocks
+Blockly.Msg.ENG_LEDS_SETALL = 'Set all LEDs';
+Blockly.Msg.ENG_LEDS_SETALL_TIP = 'Set all Engduino LEDs to the same colour';
+
